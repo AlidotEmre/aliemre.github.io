@@ -1,0 +1,98 @@
+/* Genel ayarlar */
+body {
+  background-color: #f3faff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Başlık */
+h1 {
+  color: #003366;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Navigasyon */
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #0077b6;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Kutu stil */
+.kutu {
+  background-color: white;
+  border: 2px solid #d0e0f0;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* İç kutular için */
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kutu-ic {
+  flex: 1;
+  min-width: 200px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+/* Buton stilleri */
+.buton {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.buton:hover {
+  background-color: #023e8a;
+}
+
+/* Form elemanları */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}

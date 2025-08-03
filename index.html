@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Emre'nin Kişisel Sitesi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ali Emre'nin Kişisel Sitesi</h1>
+  </header>
+
+  <nav>
+    <a href="#hakkimda">Hakkımda</a> |
+    <a href="#projeler">Projeler</a> |
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <main>
+    <section id="hakkimda" class="kutu">
+      <h2>Hakkımda</h2>
+      <p>Bilgisayar mühendisliği öğrencisiyim. Java, SQL, mobil ve web geliştirme ile ilgileniyorum. Uygulamalı projeler yaparak kendimi geliştiriyorum.</p>
+    </section>
+
+    <section id="projeler" class="kutu">
+      <h2>Projelerim</h2>
+      <div class="container">
+        <div class="kutu-ic">
+          <h3>EMS Sistemi</h3>
+          <p>Çalışan yönetimi için masaüstü uygulaması.</p>
+          <a href="https://github.com/" class="buton" target="_blank">GitHub</a>
+        </div>
+        <div class="kutu-ic">
+          <h3>Yemek Tarifi Sistemi</h3>
+          <p>MySQL veritabanı ile tarif yönetimi.</p>
+          <a href="https://github.com/" class="buton" target="_blank">GitHub</a>
+        </div>
+        <div class="kutu-ic">
+          <h3>Catch The Kenny</h3>
+          <p>Android Studio ile geliştirilmiş mini oyun.</p>
+          <a href="https://github.com/" class="buton" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="kutu">
+      <h2>İletişim</h2>
+      <form action="#" method="post">
+        <label>Adınız:</label><br>
+        <input type="text" name="isim"><br><br>
+
+        <label>E-posta:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Mesaj:</label><br>
+        <textarea name="mesaj" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Gönder" class="buton">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Telif Hakkı © 2025 - Ali Emre Açıkkol</p>
+  </footer>
+
+</body>
+</html>
